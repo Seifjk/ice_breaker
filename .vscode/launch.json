@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Ice Breaker Runner",
             "type": "python",
@@ -11,7 +12,12 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/.env",
+            "env": {
+                "OPENAI_API_KEY": "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",
+                "PROXYCURL_API_KEY": "4Sa7ws9huIgKyv_ciQ4WSQ"
+
+            }
         }
     ]
 }
